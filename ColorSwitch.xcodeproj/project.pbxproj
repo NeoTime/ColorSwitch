@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9400D75422530769002373F2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400D75322530769002373F2 /* Settings.swift */; };
 		9400D756225333B4002373F2 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9400D755225333B4002373F2 /* MenuScene.swift */; };
+		9400D758225344EE002373F2 /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9400D757225344EE002373F2 /* bling.wav */; };
 		94A7B8F02252BA5A00864024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B8EF2252BA5A00864024 /* AppDelegate.swift */; };
 		94A7B8F62252BA5A00864024 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B8F52252BA5A00864024 /* GameScene.swift */; };
 		94A7B8F82252BA5A00864024 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7B8F72252BA5A00864024 /* GameViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		9400D75322530769002373F2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		9400D755225333B4002373F2 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		9400D757225344EE002373F2 /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bling.wav; sourceTree = "<group>"; };
 		94A7B8EC2252BA5A00864024 /* ColorSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A7B8EF2252BA5A00864024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A7B8F52252BA5A00864024 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		94A7B8EE2252BA5A00864024 /* ColorSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				9400D757225344EE002373F2 /* bling.wav */,
 				94A7B9012252BA5E00864024 /* Info.plist */,
 				9400D7522252FDE5002373F2 /* Assets */,
 				9400D7512252FDC4002373F2 /* Template */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A7B8FB2252BA5A00864024 /* Main.storyboard in Resources */,
+				9400D758225344EE002373F2 /* bling.wav in Resources */,
 				94A7B8FD2252BA5E00864024 /* Assets.xcassets in Resources */,
 				94A7B9002252BA5E00864024 /* LaunchScreen.storyboard in Resources */,
 			);
