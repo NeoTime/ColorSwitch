@@ -47,6 +47,7 @@ class GameScene: SKScene {
         colorSwitch = SKSpriteNode(imageNamed: "ColorCircle")
         colorSwitch.size = CGSize(width: frame.size.width/3, height: frame.size.width/3)
         colorSwitch.position = CGPoint(x: frame.midX, y: frame.minY + colorSwitch.size.height)
+        colorSwitch.zPosition = ZPositions.colorSwitch
         colorSwitch.physicsBody = SKPhysicsBody(circleOfRadius: colorSwitch.size.width/2)
         colorSwitch.physicsBody?.categoryBitMask = PhysicsCategories.switchCategory
         colorSwitch.physicsBody?.isDynamic = false
@@ -56,6 +57,7 @@ class GameScene: SKScene {
         scoreLabel.fontSize = 60.0
         scoreLabel.fontColor = UIColor.white
         scoreLabel.position = CGPoint(x: frame.midX, y: frame.midY)
+        scoreLabel.zPosition = ZPositions.label
         addChild(scoreLabel)
         
         spawnBall()
@@ -70,6 +72,7 @@ class GameScene: SKScene {
         ball.colorBlendFactor = 1.0
         ball.name = "Ball"
         ball.position = CGPoint(x: frame.midX, y: frame.maxY)
+        ball.zPosition = ZPositions.ball
         ball.physicsBody = SKPhysicsBody(circleOfRadius: ball.size.width/2)
         ball.physicsBody?.categoryBitMask = PhysicsCategories.ballCategory
         ball.physicsBody?.contactTestBitMask = PhysicsCategories.switchCategory
